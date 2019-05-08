@@ -51,5 +51,6 @@ mv spa.traineddata /usr/share/tesseract/tessdata/
 
 # Sanity check
 # check if tesseract is installed: type "tesseract --version" and expect to see 1st line (tesseract), 2nd line (leptonica), 3rd line(libraries for images)
-export TESSERACT_PATH=/usr/local/lib/
-
+#export TESSERACT_PATH=/usr/local/lib/
+export LC_ALL=C
+export TESSDATA_PREFIX="/usr/share/tesseract/4/tessdata/"
