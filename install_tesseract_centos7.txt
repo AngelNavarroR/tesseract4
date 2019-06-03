@@ -61,3 +61,7 @@ TESSDATA_PREFIX="/usr/local/share/tessdata/"
 
 # GREGAR AL FINAL DE .bashrc
 export PATH=$PATH:/usr/local/share/tessdata/
+
+
+# 
+yum install -y tesseract
