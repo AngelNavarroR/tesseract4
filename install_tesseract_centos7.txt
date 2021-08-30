@@ -65,3 +65,13 @@ export PATH=$PATH:/usr/local/share/tessdata/
 
 # 
 yum install -y tesseract
+
+
+# Actualizado el 30-08-2021
+https://tesseract-ocr.github.io/tessdoc/Installation.html
+For CentOS 8 run the following as root:
+
+dnf config-manager --add-repo https://download.opensuse.org/repositories/home:/Alexander_Pozdnyakov/CentOS_8/
+rpm --import https://build.opensuse.org/projects/home:Alexander_Pozdnyakov/public_key
+dnf install tesseract
+dnf install tesseract-langpack-deu
